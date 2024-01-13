@@ -1,0 +1,14 @@
+Class_Notes_1 --> https://jamboard.google.com/d/1XFKVEWznSeiH-raRmO7_hONHEJZ0gafewMgNLmXMMBc/viewer?pli=1
+Class_Notes_2 --> https://jamboard.google.com/d/1GTyCmuejfnByWX8A74sVZgfZvS_njwwmFFJpWTGHGaU/viewer?pli=1
+
+Books
+
+Algorithm  --> by Robert sedgewick
+The Algorithm Design Manual --> by Steven S. Skiena (World War Story)
+
+CLRS stands for "Introduction to Algorithms,"
+By -->   
+   Thomas H. Cormen, 
+   Charles E. Leiserson, 
+   Ronald L. Rivest, 
+   Clifford Stein. 
