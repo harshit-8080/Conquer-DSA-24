@@ -1,4 +1,4 @@
-// * Idea is to check in pair
+// * Idea is to check in pairs
 // * If we do check in pairs, We can settle 2 elements in 3 checks
 // * In solution 1, For every elements we were doing 2 checks.
 

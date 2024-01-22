@@ -1,3 +1,8 @@
+// * Idea is simple, Keeping max & min and iterating through the array
+// * For arr[i] element, Check for with our max & min
+// * Update max if arr[i] > max
+// * Update min if arr[i] < min
+
 function findSum(A) {
   let max = A[0];
   let min = A[0];
