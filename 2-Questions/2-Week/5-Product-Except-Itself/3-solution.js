@@ -24,7 +24,7 @@
 var productExceptSelf = function (nums) {
   let countZero = 0;
   let productForZeroElement = 1;
-  sum = 1;
+  toatlProduct = 1;
   for (let i = 0; i < nums.length; i++) {
     if (nums[i] == 0) {
       countZero++;
@@ -32,7 +32,7 @@ var productExceptSelf = function (nums) {
       productForZeroElement = productForZeroElement * nums[i];
     }
 
-    sum = sum * nums[i];
+    toatlProduct = toatlProduct * nums[i];
   }
 
   if (countZero > 1) {
@@ -43,7 +43,7 @@ var productExceptSelf = function (nums) {
     if (nums[i] == 0) {
       output[i] = productForZeroElement;
     } else {
-      output[i] = Math.floor(sum / nums[i]);
+      output[i] = Math.floor(toatlProduct / nums[i]);
     }
   }
 
