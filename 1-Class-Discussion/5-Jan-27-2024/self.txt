@@ -1,0 +1,18 @@
+Question Dicussed :-
+
+1. Sort an array in wave form
+2. Selection Sort ( Find minimum element in every iteration & place it at correct position)
+3. Insertion Sort ( Sorted portion and Unsorted portion )
+
+
+Sorting can help in different pattern.
+
+
+Equilibrium Index Problem is important.
+
+Similar idea applied in below Question -->
+
+1. Product Except Self
+2. Sum of all subarray
+3. Sum of all odd size subarray
+
