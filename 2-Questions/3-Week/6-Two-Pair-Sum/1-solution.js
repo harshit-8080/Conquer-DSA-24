@@ -1,1 +1,0 @@
-function TwoPairSum(arr, target) {}
