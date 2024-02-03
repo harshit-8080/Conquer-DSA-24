@@ -1,0 +1,7 @@
+Intersction of array when sorted
+
+Using Recursion
+----------------------------------------------------------------
+Factorial 
+Fibonacci
+Binary Search
