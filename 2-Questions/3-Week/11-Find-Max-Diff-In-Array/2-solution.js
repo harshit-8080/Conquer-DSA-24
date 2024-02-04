@@ -15,6 +15,8 @@ Efficient Idea
 
 */
 
+//* https://leetcode.com/problems/maximum-difference-between-increasing-elements/description/
+
 var maximumDifference = function (arr) {
   let min = Infinity,
     maxDiff = -1;
