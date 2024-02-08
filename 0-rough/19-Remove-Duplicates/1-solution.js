@@ -1,14 +1,7 @@
-/*
-
-ith element is not unique if they are not equal to i-1
-
-if (arr[i] != arr[i-1]){
-  means they are unique and we can include them in our unique list
-}
-
-
-*/
-
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
 var removeDuplicates = function (arr) {
   let nextUnique = 1;
 
