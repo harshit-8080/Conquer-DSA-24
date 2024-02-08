@@ -1,26 +1,25 @@
-//* https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
+/*
 
-// * BF Idea --> using unique array
+Using extra unique[]
 
-/**
- * @param {number[]} nums
- * @return {number}
- */
-var removeDuplicates = function (nums) {
+1. Compare if arr[i] != arr[i-1]. If True this unique element add it to our unique[]
+
+2. Else it's duplicat element move on
+
+*/
+
+var removeDuplicates = function (arr) {
   let unique = [];
-  index = -1;
-  for (let i = 0; i < nums.length; i++) {
-    if (unique.length == 0) {
-      unique.push(nums[i]);
-      index = index + 1;
-    } else if (unique[index] != nums[i]) {
-      unique.push(nums[i]);
-      index = index + 1;
+  unique.push(arr[0]);
+
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] != arr[i - 1]) {
+      unique.push(arr[i]);
     }
   }
 
   for (let i = 0; i < unique.length; i++) {
-    nums[i] = unique[i];
+    arr[i] = unique[i];
   }
   return unique.length;
 };
