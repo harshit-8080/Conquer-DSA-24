@@ -13,7 +13,7 @@ var validMountainArray = function (arr) {
       peakCount++;
     } else if (arr[i] < arr[i - 1] && arr[i] < arr[i + 1]) {
       return false;
-    } else if (arr[i] == arr[i + 1] && arr[i] == arr[i + 1]) {
+    } else if (arr[i] == arr[i + 1] || arr[i] == arr[i + 1]) {
       return false;
     }
   }
