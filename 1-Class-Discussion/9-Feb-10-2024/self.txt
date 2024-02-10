@@ -1,0 +1,24 @@
+Problem Discussed in Class
+----------------------------------------------------------------
+
+1. Move all zero to end 
+    1.  Solve using -> swap 0 elements with first nonzero elements
+
+--------------------------------------------------------------------------------------------------------------------------------
+2. Sort 0, 1 and 2 
+    1.  Solve using -> nextZero and nextTwo)
+
+--------------------------------------------------------------------------------------------------------------------------------
+3. Remove Duplicates from array
+    1. Solve using -> nextUnique (arr[i] != arr[i-1])
+    2. Look for unique elements and assign them to nextUnique index
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+4. Find Peak in mountain array.
+
+5. Find the minimum in sorted rotated array.
+
+6. Find the maximum in sorted rotated array. 
+
+7. Find the first and last occurrences in sorted array
