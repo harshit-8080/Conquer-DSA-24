@@ -15,7 +15,7 @@ function findCeil(arr, n, x) {
       } else {
         right = mid - 1;
       }
-    } else if (arr[mid] < x) {
+    } else if (arr[mid] <= x) {
       left = mid + 1;
     } else {
       right = mid - 1;
