@@ -1,6 +1,6 @@
 //* https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
 
-// * Floor of x is defined as the largest element K in arr[] such that K is smaller than or equal to x.
+//*  Largest Element which is smaller than X
 
 function findFloor(arr, n, x) {
   let left = 0,
