@@ -2,7 +2,7 @@ function findPos(arr, target) {
   let left = 0,
     right = 1;
 
-  while (val < key) {
+  while (arr[right] < key) {
     left = right;
     right = 2 * right;
   }
