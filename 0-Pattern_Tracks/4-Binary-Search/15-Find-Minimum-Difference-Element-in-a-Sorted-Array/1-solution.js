@@ -1,3 +1,5 @@
+// * https://www.callicoder.com/minimum-difference-element-in-sorted-array/
+
 function FindMinimumDifferenceElementInASortedArray(arr, target) {
   floorElement = floorElementFromArray(arr, target);
   ceilElement = ceilElementFromArray(arr, target);
