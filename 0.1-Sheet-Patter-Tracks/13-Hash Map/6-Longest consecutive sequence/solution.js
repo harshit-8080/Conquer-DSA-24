@@ -22,6 +22,9 @@ var longestConsecutive = function (arr) {
       continue;
     } else {
       let curElement = arr[i];
+      if (map[curElement - 1]) {
+        continue;
+      }
       while (map[curElement + 1] != undefined) {
         curr++;
         curElement++;
